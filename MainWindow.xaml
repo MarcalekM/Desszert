@@ -1,0 +1,18 @@
+﻿<Window x:Class="Desszert.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Desszert"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Ajanlat" HorizontalAlignment="Left" Margin="40,30,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="Dijazott" HorizontalAlignment="Left" Margin="40,70,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="220"/>
+        <Label Content="Legdrágább desszertünk:" HorizontalAlignment="Left" Margin="40,99,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="LegdragabbNev" HorizontalAlignment="Left" Margin="40,130,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="220"/>
+        <Label Content="Legolcsóbb desszertünk:" HorizontalAlignment="Left" Margin="40,159,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="LegolcsobbNev" HorizontalAlignment="Left" Margin="40,190,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="220"/>
+
+    </Grid>
+</Window>
