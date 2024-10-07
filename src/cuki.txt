@@ -1,0 +1,2 @@
+Hóvirág;torta;True;1232;szelet
+Egres;pite;True;1520;db

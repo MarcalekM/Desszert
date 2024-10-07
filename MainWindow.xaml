@@ -11,8 +11,23 @@
         <TextBox x:Name="Dijazott" HorizontalAlignment="Left" Margin="40,70,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="220"/>
         <Label Content="Legdrágább desszertünk:" HorizontalAlignment="Left" Margin="40,99,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="LegdragabbNev" HorizontalAlignment="Left" Margin="40,130,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="220"/>
+        <Label x:Name="LegdragabbAdat" Content="" HorizontalAlignment="Left" Margin="265,126,0,0" VerticalAlignment="Top" Width="120"/>
         <Label Content="Legolcsóbb desszertünk:" HorizontalAlignment="Left" Margin="40,159,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="LegolcsobbNev" HorizontalAlignment="Left" Margin="40,190,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="220"/>
+        <Label x:Name="LegolcsobbAdat" Content="" HorizontalAlignment="Left" Margin="265,186,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Típusa:" HorizontalAlignment="Left" Margin="40,289,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ajanlat" HorizontalAlignment="Left" Margin="92,293,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148"/>
+        <Button x:Name="arAjanlat" Content="Árajánlat mentése" HorizontalAlignment="Left" Margin="40,342,0,0" VerticalAlignment="Top" Width="200" Click="arAjanlat_Click"/>
+        <Label Content="Név:" HorizontalAlignment="Left" Margin="520,40,0,0" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="ujNev" HorizontalAlignment="Left" Margin="584,44,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.385,0.091"/>
+        <Label Content="Típus:" HorizontalAlignment="Left" Margin="520,80,0,0" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="ujTipus" HorizontalAlignment="Left" Margin="584,84,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.385,0.091"/>
+        <Label Content="Egység:" HorizontalAlignment="Left" Margin="520,120,0,0" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="ujEgyseg" HorizontalAlignment="Left" Margin="584,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.385,0.091"/>
+        <Label Content="Ár:" HorizontalAlignment="Left" Margin="520,160,0,0" VerticalAlignment="Top" Width="25"/>
+        <TextBox x:Name="ujAr" HorizontalAlignment="Left" Margin="584,164,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.385,0.091"/>
+        <CheckBox x:Name="ujDijazott" Content="Díjazott" HorizontalAlignment="Left" Margin="564,200,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ujFelveletel" Content="Új süti felvétele" HorizontalAlignment="Left" Margin="520,241,0,0" VerticalAlignment="Top" Width="184" Click="ujFelveletel_Click"/>
 
     </Grid>
 </Window>

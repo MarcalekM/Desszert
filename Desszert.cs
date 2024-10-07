@@ -22,5 +22,13 @@ namespace Desszert
             Price = int.Parse(i[3]);
             Amount = i[4];
         }
+
+        public Dessert(string nev, string tipus, bool dijazott, int ar, string mertekegyseg) {
+            Name = nev;
+            Type = tipus;
+            Awarded = dijazott;
+            Price = ar;
+            Amount = mertekegyseg;
+        }
     }
 }
